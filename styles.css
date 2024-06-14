@@ -13,15 +13,17 @@
    
 }
 
+button{
+    position:absolute
+    
+}
 .buttonYesCenter{
-    position: absolute;
     top: 40%;
     left: 45%;
     transform: translate(-50%, -50%);
 }
 
 .buttonNoCenter{
-    position: absolute;
     top: 40%;
     left: 55%;
     transform: translate(-50%, -50%);
