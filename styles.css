@@ -1,6 +1,6 @@
 
 
-body{
+.siteBackground{
     background-color: pink;
 }
 
@@ -15,7 +15,23 @@ body{
 
 .buttonYesCenter{
     position: absolute;
-    top: 50%;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.buttonNoCenter{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    position: absolute;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: large;
+    font-weight: bold;
 }
